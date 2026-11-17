@@ -1,10 +1,10 @@
 #Task 1
 def calculate_average(scores):    
-    print(sum(scores)/len(scores))
+    return sum(scores)/len(scores)
 def get_highest_score(scores):
-    print(max(scores))
+    return max(scores)
 def get_lowest_score(scores):
-    print(min(scores))
+    return min(scores)
 #Task 2
 def process_students(student_list):
     print("Students")
